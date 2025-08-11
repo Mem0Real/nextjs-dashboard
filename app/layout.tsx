@@ -1,6 +1,11 @@
 import "@/app/ui/global.css";
 import { inter } from "@/app/ui/fonts";
 
+export const metadata = {
+  title: "NextJS Dashboard",
+  description: "Practice project for NextJS 15",
+};
+
 export default function RootLayout({
   children,
 }: {
